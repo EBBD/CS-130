@@ -260,7 +260,7 @@ int main()
                         {
                             hero.health = hero.health - enemy.damage;
                         }
-                        if (hero.health < 0) {
+                        if (hero.health <= 0) {
                             cout << "You died!";
                             exit(1);
                         }
